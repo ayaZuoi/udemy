@@ -1,0 +1,50 @@
+@import "base/base.scss";
+@import "abstract/functions.scss";
+@import "abstract/maxsines.scss";
+@import "abstract/varibales.scss";
+@import "base/animation.scss";
+@import "base/base.scss";
+@import"base/tybolgy.scss";
+@import"base/utility.scss";
+@import"componts/button.scss";
+@import"layout/header.scss";
+@import"layout/grid.scss";
+@import "pages/home";
+@import"componts/competion.scss";
+/*
+COLORS:
+Light green: 
+Medium green: #55c57a
+Dark green: #28b485
+*/
+
+
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    
+    
+    }
+    html{
+        //this 1 rem 
+    font-size: 62.5%;
+    
+    }
+    body{
+        box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    /*font-size: 16px;*/
+    color:$color-gray-dark; 
+    padding:3rem;
+    }
+     /* all of this above just setup
+     */
+     
+    
+ 
+     
+    
